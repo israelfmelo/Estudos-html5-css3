@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('../d010/pacote-projeto-d010/fontes/idroid.otf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 221, 91);
+    margin: -21px 0px 0px 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, #145e3c, #64c782, #aee4c0);
+    margin: 0px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+}    
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 100px 0px 100px;
+}
+
+main > h2 {
+    font-family: 'droid';
+    background-color: white;
+    color: green;
+}
+
+main > h3 {
+    font-family: 'droid';
+    background-color: rgba(199, 216, 206, 0.507);
+    color: green;
+}
+
+main > img {
+    margin: center;
+    width: 100%;
+}
+
+main > p > a {
+    text-decoration: none;
+    font-weight: normal;
+    color: green;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: green;
+    padding: 15px 25px;
+    margin: 0px -10px;
+}
+
+section > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+article {
+    background-color: green;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 40px;
+}
+
+aside {
+    background-color: rgb(194, 223, 194);
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px 0px 0px 0px;
+   }
+
+aside > p > a {
+    text-decoration: none;
+    font-weight: normal;
+    color: green;
+}
+
+aside > p > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
+    
